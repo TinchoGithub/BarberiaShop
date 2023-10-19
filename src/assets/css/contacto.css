@@ -1,0 +1,63 @@
+form{
+    margin: 40px 0;
+    
+    
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    border: 2px solid #c78c19;
+
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: lightskyblue;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+    
+}
+
+.enviar:hover{
+    background: green;
+    transform: scale(1.2);
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+thead{
+    background: #c78c19;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

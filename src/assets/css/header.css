@@ -1,0 +1,14 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    border-bottom: 5px solid #df9a0f;
+}
+
+.logo{
+    width: 150px;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}

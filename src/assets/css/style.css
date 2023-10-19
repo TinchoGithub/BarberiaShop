@@ -1,0 +1,21 @@
+.body{
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .contenido-mapa, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}
+
